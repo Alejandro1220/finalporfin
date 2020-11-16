@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        .lo{
+            position:relative;
+            background: url(Captura.JPG);
+            width: 1000px;
+            height: 700px;
+        }
+        .vi{
+            position: absolute;
+            top: 100px;
+        }
+        .do{
+            display: none;
+        }
+    </style>
+<div class="lo" id="prue"></div>
+<div id="bot">
+<button onclick="ocultar();">kjgh</button>
+</div>
+
+<div class="do" id="ven">
+    <button onclick="document.getElementById('player').play()" class="boti"><div class="vi">
+ <video id="player" src="edipaj12.avi" preload ></video>
+</div></button>
+</div>
+
+<script>
+function ocultar(){
+    document.getElementById('prue').style.display="none";
+    document.getElementById('bot').style.display="none";
+    document.getElementById('ven').style.display="block";
+}
+
+</script>
+</body>
+</html>
